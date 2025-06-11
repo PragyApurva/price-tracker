@@ -2,6 +2,12 @@
   "type": "module",
   "dependencies": {
     "express": "^5.1.0",
-    "nextjs": "^0.0.3"
-  }
+    "nextjs": "^0.0.3",
+    "puppeteer": "^24.10.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^24.0.0"
+  },
+  "scripts": {}
 }
