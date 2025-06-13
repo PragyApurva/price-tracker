@@ -1,5 +1,5 @@
 import express from "express"
-import v1Routes from "./routes/index"
+import v1Routes from "./routes/index.js"
 
 const app = express();
 

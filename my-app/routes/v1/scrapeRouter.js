@@ -1,5 +1,5 @@
 import express from "express";
-import { getItemByUrl } from "..controller/scrape-item-by-url"
+import { getItemByUrl } from "../../controller/scrape-item-by-url.js";
 
 const router = express.Router();
 
