@@ -2,5 +2,10 @@ import { get_site_content_by_url } from "../services/get-site-content-by-url-ser
 
 export const getItemByUrl = async (req, res) => {
     const { url } = req.body;
-    await get_site_content_by_url(url);
+    const result = await get_site_content_by_url(url);
+    console.log("res = ", result);
+    return res.status(result.statusCode).json({
+        status: result.status,
+        data: result.data
+    });
 };
