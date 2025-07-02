@@ -8,6 +8,7 @@
     "nextjs": "^0.0.3",
     "nodemon": "^3.1.10",
     "puppeteer": "^24.10.0",
+    "winston": "^3.17.0",
     "ytdl-core": "npm:@distube/ytdl-core@^4.16.12"
   },
   "devDependencies": {
