@@ -1,3 +1,31 @@
+## Issues
+- [ ] With audio + vido combined YT sends max qualit as 360p
+- [ ] For format higher then 360p 720, 4k YT sends video and audio seperately 
+- [x] Time start and end 
+
+
+
+
+## Product info
+-> Audio download working
+-> Audio only => direct, less then 360p -> direct else use ffmpeg
+-> FROM FE i will get the quality like:     
+    'lowest': 1,
+    'low': 2,
+    '144p': 1,
+    '240p': 2,
+    '360p': 3,
+    '480p': 4,
+    'medium': 4,
+    '720p': 5,
+    'high': 5,
+    '1080p': 6,
+    '1440p': 7,
+    '2160p': 8,
+    '4320p': 9,
+    'highest': 10
+-> FFMPEG is working fine.
+
 # Product Price Tracker
 
 

@@ -8,6 +8,6 @@ const router = express.Router()
 
 // router.use('/url', scrapeRoutes);
 router.post('/url', getItemByUrl)
-router.get('/download', downloadItem )
+router.get('/download', downloadItem)
 
 export default router;

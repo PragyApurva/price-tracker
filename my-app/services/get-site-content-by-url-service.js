@@ -2,8 +2,8 @@ import axios from "axios";
 import { response } from "express";
 import logger from "../config/logger.js";
 
-const get_site_content_by_url = async (url) =>{
-  try{
+const get_site_content_by_url = async (url) => {
+  try {
     const response = await axios.get(url)
     logger.info("Fetch data successfully ", response.data);
     return {
@@ -14,7 +14,7 @@ const get_site_content_by_url = async (url) =>{
       },
       statusCode: 200
     }
-  } catch(error){
+  } catch (error) {
     return {
       status: "error",
       data: {
